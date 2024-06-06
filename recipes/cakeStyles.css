@@ -1,0 +1,13 @@
+a{
+    text-decoration: none;
+    font-size: 34px;
+}
+ul > li {
+    font-style: italic;
+    font-weight: bold;
+}
+
+ol > li {
+    font-style: oblique;
+    font-size: 24px;
+}
