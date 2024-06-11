@@ -1,13 +1,24 @@
-a{
-    text-decoration: none;
-    font-size: 34px;
-}
-ul > li {
-    font-style: italic;
-    font-weight: bold;
+.top, .content, .button{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-ol > li {
-    font-style: oblique;
+a{
+    padding: 10px 20px;
     font-size: 24px;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+    width: 200px;
+    text-align: center;
+}
+
+img{
+    width: 360px;
+    height: 240px;
 }
